@@ -1,20 +1,20 @@
 # Python Machine Learning
 
-The project focuses on computational learning with Python, analyzing large amounts of data and working with the Pandas and Numpy libraries. 
+The project focuses on computational learning with Python, analyzing large amounts of data and working with the Pandas and Numpy libraries.
 # Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas and numpy.
 
-bash
+```bash
 pip install pandas
-
-bash
+```
+```bash
 pip install numpy
-
+```
 
 ## Initiate
 
-python
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 plt.rcParams.update({'font.size': 20, 'figure.figsize': (8, 4)})
@@ -25,11 +25,11 @@ matplotlib_inline.backend_inline.set_matplotlib_formats('svg')
 
 import seaborn as sns
 sns.set()
-
+```
 
 ## Code Example
 
-python
+```python
 
 # plot a line chart of total sales ('Total') per hour in our dataset
 # the x axis will be an hour (e.g., 9, 10, 11), and the y axis will be the total amout of sales during that hour
@@ -49,7 +49,7 @@ plt.ylabel("Total sales")
 
 # Show the plot
 plt.show()
-
+```
 
 
 ## Main Goals
